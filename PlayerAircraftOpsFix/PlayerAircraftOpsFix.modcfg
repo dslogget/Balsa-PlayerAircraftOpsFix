@@ -1,0 +1,14 @@
+ModCFG
+{
+    title = PlayerAircraftOpsFix
+    author = DannyClover
+    modVersion = 0.1.0
+    requiresGameVersion = 0.101.0
+    Plugin
+    {
+        name = ModReloader
+        description = Reload Mods
+        asmpath = Addons\PlayerAircraftOpsFix\PlayerAircraftOpsFix.dll
+        order = 3
+    }
+}
